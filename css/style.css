@@ -1,4 +1,13 @@
 :root{
+    --background-color: #2F303A;
+    --text-color :#212121;
+    --accent-color: #757575;
+    --background-form: rgba(245, 244, 250, 1)
+    --additional-form : #FFF;
+    --web-color: #2196F3;
+    --studio-color: #FFF;
+    --data-color: rgba(255, 255, 255, 0.6)
+    --header-data-color: rgba(117, 117, 117, 1)
 
 }
 .stoodia{
@@ -14,7 +23,7 @@
     color: #2196F3;
 }
 .phone{
-    color: #757575;
+    color: rgba(117, 117, 117, 1)
 }
 .hero{
     background: #2F303A;
