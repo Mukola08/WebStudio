@@ -2,71 +2,92 @@
     --background-color: #2F303A;
     --text-color :#212121;
     --accent-color: #757575;
-    --background-form: rgba(245, 244, 250, 1)
+    --background-form: rgba(245, 244, 250, 1);
     --additional-form : #FFF;
     --web-color: #2196F3;
     --studio-color: #FFF;
-    --data-color: rgba(255, 255, 255, 0.6)
-    --header-data-color: rgba(117, 117, 117, 1)
-
+    --data-color: rgba(255, 255, 255, 0.6); 
+    --comand-color: rgba(245, 244, 250, 1);
+    --dateheader-color: rgba(117, 117, 117, 1);
+    --studio1-color: #000;
 }
 .stoodia{
-    color: #2196F3;
+    color: var(--web-color);
+    font-family: Roboto;
 }
 .portfolio{
-    color: #212121;
+    color: var(--text-color);
+    font-family: Roboto;
 }
 .contakt{
-    color: #212121;
+    color: var(--text-color);
+    font-family: Roboto;
 }
 .gmail{
-    color: #2196F3;
+    color: var(--web-color);
+    font-family: Roboto;
 }
 .phone{
-    color: rgba(117, 117, 117, 1)
+    color: var(--dateheader-color);
+    font-family: Roboto;
 }
 .hero{
-    background: #2F303A;
+    background: var(--background-color);
 }
 h1{
-    color: #FFF;
+    color: var(--studio-color);
+    font-family: Roboto;
 }
 button{
-    background: #2196F3;
-    color: #FFF;
+    background: var(--web-color);
+    color: var(--studio-color);
+    font-family: Roboto;
 }
 h3{
-    color:#212121;
+    color: var(--text-color);
+    font-family: Roboto;
 }
 p{
-    color: #757575;
+    color: var(--accent-color);
+    font-family: Roboto;
 }
 h2{
-    color: #212121;
+    color: var(--text-color);
+    font-family: Roboto;
 }
 .comanda{
-background: #F5F4FA;
+background: var(--comand-color);
 }
 h4{
-    color: #212121;
+    color: var(--text-color);
+    font-family: Roboto;
 }
 .footer{
-    background: #2F303A;
+    background: var(--background-color);
 }
 .adres{
- color: #FFF;   
+ color: var(--studio-color); 
+font-family: Roboto;
 }
 .mailto{
-    color: rgba(255, 255, 255, 0.60);
+    color: var(--data-color);
+    font-family: Roboto;
 }
 .tel{
-    color: rgba(255, 255, 255, 0.60)
+    color: var(--data-color);
+    font-family: Roboto;
 }
 .Web{
-    color: #2196F3;
+    color: var(--web-color);
+    font-family: Raleway;
 }
 .studio{
-    color: #FFF;
+    color: var(--studio-color);
+    font-family: Raleway;
+}
+.studio1{
+    color: var(--studio1-color);
+    font-family: Raleway;
 }
 
 
