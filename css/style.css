@@ -11,83 +11,146 @@
     --dateheader-color: rgba(117, 117, 117, 1);
     --studio1-color: #000;
 }
-.stoodia{
-    color: var(--web-color);
-    font-family: Roboto;
-}
-.portfolio{
-    color: var(--text-color);
-    font-family: Roboto;
-}
-.contakt{
-    color: var(--text-color);
-    font-family: Roboto;
-}
-.gmail{
-    color: var(--web-color);
-    font-family: Roboto;
-}
-.phone{
-    color: var(--dateheader-color);
-    font-family: Roboto;
-}
-.hero{
-    background: var(--background-color);
-}
-h1{
-    color: var(--studio-color);
-    font-family: Roboto;
-}
-button{
-    background: var(--web-color);
-    color: var(--studio-color);
-    font-family: Roboto;
-}
-h3{
-    color: var(--text-color);
-    font-family: Roboto;
-}
-p{
-    color: var(--accent-color);
-    font-family: Roboto;
-}
-h2{
-    color: var(--text-color);
-    font-family: Roboto;
-}
-.comanda{
-background: var(--comand-color);
-}
-h4{
-    color: var(--text-color);
-    font-family: Roboto;
-}
-.footer{
-    background: var(--background-color);
-}
-.adres{
- color: var(--studio-color); 
-font-family: Roboto;
-}
-.mailto{
-    color: var(--data-color);
-    font-family: Roboto;
-}
-.tel{
-    color: var(--data-color);
-    font-family: Roboto;
-}
-.Web{
-    color: var(--web-color);
-    font-family: Raleway;
-}
-.studio{
-    color: var(--studio-color);
-    font-family: Raleway;
-}
-.studio1{
+
+
+.studio1 {
     color: var(--studio1-color);
-    font-family: Raleway;
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.38; 
+        letter-spacing: 0.78px;
+        
 }
 
+.Web {
+color: var(--web-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.28px;
+   
+}
 
+.nav-item {
+    color: var(--text-color);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.28px;
+}
+
+.date {
+    color: var(--accent-color);
+    
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.28px;
+       
+}
+
+.hero {
+        background: var(--background-color);
+}
+.title {
+    width: 696px;
+    color: var(--studio-color);
+        font-family: Roboto;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+}
+
+.button {
+    width: 216px;
+        height: 50px;
+        background: var(--web-color);
+        color: var(--studio-color);
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0.96px;
+}
+
+.title3 {
+    color: var(--text-color);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+}
+.paragraph {
+    color: var(--accent-color);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+}
+.title2 {
+    color: var(--text-color);
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 1.08px;
+}
+
+.command {
+    background-color: var(--comand-color);
+}
+.title4 {
+    color: var(--text-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.18;
+        letter-spacing: 0.48px;
+}
+.paragraph-comand {
+    color: var(--accent-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.18;
+        letter-spacing: 0.48px;
+}
+.footer {
+    background-color: var(--background-color);
+}
+.studio {
+    color: var(--studio-color);
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.38;
+        letter-spacing: 0.78px;
+}
+.adres {
+    color: var(--studio-color);
+    
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1,71;
+        letter-spacing: 0.42px;
+}
+
+.link{
+    color: var(--data-color);
+    
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+}
