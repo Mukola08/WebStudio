@@ -1,0 +1,122 @@
+:root {
+    --background-color: #2F303A;
+    --text-color: #212121;
+    --accent-color: #757575;
+    --background-form: rgba(245, 244, 250, 1);
+    --additional-form: #FFF;
+    --web-color: #2196F3;
+    --studio-color: #FFF;
+    --data-color: rgba(255, 255, 255, 0.6);
+    --comand-color: rgba(245, 244, 250, 1);
+    --dateheader-color: rgba(117, 117, 117, 1);
+    --studio1-color: #000;
+}
+
+
+/* Хедер */
+.studio1 {
+    color: var(--studio1-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+}
+
+.Web {
+    color: var(--web-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+}
+
+.nav-item {
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.date {
+    color: var(--accent-color);
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+
+}
+ 
+/* Секція герой */
+.button2 {
+    color: var(--text-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.62;
+}
+
+/* Секція Фотографії */
+.title-portfolio {
+    color: var(--text-color);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2;
+}
+
+.paragraph-photo {
+    color: var(--accent-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.87;
+}
+/* Футер */
+.footer {
+    background-color: var(--background-color);
+}
+
+.studio {
+    color: var(--studio-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+}
+
+.adres {
+    color: var(--studio-color);
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1, 71;
+}
+
+.link {
+    color: var(--data-color);
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+}
+ 
+/* Навігація по сайту */
+.nav-item:hover, .nav-item:focus {
+    color: var(--web-color);
+}
+.current {
+    color: var(--web-color);
+}
+
+.date:hover, .date:focus {
+    color: var(--web-color);
+}
+
+.button2:hover, .button2:focus {
+    background-color: var(--web-color);
+    color: var(--studio-color);
+}
