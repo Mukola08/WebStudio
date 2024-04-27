@@ -2,8 +2,6 @@
     --background-color: #2F303A;
     --text-color :#212121;
     --accent-color: #757575;
-    --background-form: rgba(245, 244, 250, 1);
-    --additional-form : #FFF;
     --web-color: #2196F3;
     --studio-color: #FFF;
     --data-color: rgba(255, 255, 255, 0.6); 
@@ -14,7 +12,7 @@
 
 
 /* Хедер */
-.studio1 {
+.header-logo {
     color: var(--studio1-color);
         font-family: Raleway;
         font-size: 26px;
@@ -22,7 +20,7 @@
         line-height: 1.38;       
 }
 
-.Web {
+.header-web {
 color: var(--web-color);
     font-family: Raleway;
     font-size: 26px;
@@ -39,7 +37,7 @@ color: var(--web-color);
         line-height: 1.14;
 }
 
-.date {
+.header-item {
     color: var(--accent-color);
     
         font-family: Roboto;
@@ -54,7 +52,7 @@ color: var(--web-color);
         background: var(--background-color);
 }
 
-.title {
+.hero-title {
     width: 696px;
     color: var(--studio-color);
         font-family: Roboto;
@@ -64,7 +62,7 @@ color: var(--web-color);
         text-transform: uppercase;
 }
 
-.button {
+.hero-button {
     width: 216px;
         height: 50px;
         background: var(--web-color);
@@ -76,7 +74,7 @@ color: var(--web-color);
 }
 
 /* Секція наші переваги */
-.title3 {
+.advantages-title {
     color: var(--text-color);
         font-family: Roboto;
         font-size: 14px;
@@ -85,7 +83,7 @@ color: var(--web-color);
         text-transform: uppercase;
 }
 
-.paragraph {
+.advantages-text {
     color: var(--accent-color);
         font-family: Roboto;
         font-size: 14px;
@@ -94,7 +92,7 @@ color: var(--web-color);
 }
 
 /* Секція чим ми займаємося */
-.title2 {
+.affairs-title {
     color: var(--text-color);
         font-family: Roboto;
         font-size: 36px;
@@ -107,7 +105,15 @@ color: var(--web-color);
     background-color: var(--comand-color);
 }
 
-.title4 {
+.comand-title {
+    color: var(--text-color);
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+}
+
+.comand-description {
     color: var(--text-color);
         font-family: Roboto;
         font-size: 16px;
@@ -115,7 +121,7 @@ color: var(--web-color);
         line-height: 1.18;
 }
 
-.paragraph-comand {
+.comand-text {
     color: var(--accent-color);
         font-family: Roboto;
         font-size: 16px;
@@ -128,7 +134,7 @@ color: var(--web-color);
     background-color: var(--background-color);
 }
 
-.studio {
+.footer-logo {
     color: var(--studio-color);
         font-family: Raleway;
         font-size: 26px;
@@ -136,7 +142,15 @@ color: var(--web-color);
         line-height: 1.38;
 }
 
-.adres {
+.footer-web {
+    color: var(--web-color);
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.38;
+}
+
+.footer-maps {
     color: var(--studio-color);
     
         font-family: Roboto;
@@ -145,7 +159,7 @@ color: var(--web-color);
         line-height: 1,71;
 }
 
-.link{
+.footer-item {
     color: var(--data-color);
     
         font-family: Roboto;
@@ -162,7 +176,6 @@ color: var(--web-color);
     color: var(--web-color);
 }
 
-.date:hover, .date:focus {
+.header-item:hover, .header-item:focus {
     color: var(--web-color);
 }
-

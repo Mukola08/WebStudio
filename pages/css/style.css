@@ -14,7 +14,7 @@
 
 
 /* Хедер */
-.studio1 {
+.header-logo {
     color: var(--studio1-color);
     font-family: Raleway;
     font-size: 26px;
@@ -22,12 +22,13 @@
     line-height: 1.38;
 }
 
-.Web {
+.header-web {
     color: var(--web-color);
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
+
 }
 
 .nav-item {
@@ -38,7 +39,7 @@
     line-height: 1.14;
 }
 
-.date {
+.header-item {
     color: var(--accent-color);
 
     font-family: Roboto;
@@ -49,7 +50,7 @@
 }
  
 /* Секція герой */
-.button2 {
+.onesection-button {
     color: var(--text-color);
         font-family: Roboto;
         font-size: 16px;
@@ -58,7 +59,7 @@
 }
 
 /* Секція Фотографії */
-.title-portfolio {
+.photo-title {
     color: var(--text-color);
         font-family: Roboto;
         font-size: 18px;
@@ -66,7 +67,7 @@
         line-height: 2;
 }
 
-.paragraph-photo {
+.photo-text {
     color: var(--accent-color);
         font-family: Roboto;
         font-size: 16px;
@@ -78,7 +79,7 @@
     background-color: var(--background-color);
 }
 
-.studio {
+.footer-logo {
     color: var(--studio-color);
     font-family: Raleway;
     font-size: 26px;
@@ -86,7 +87,15 @@
     line-height: 1.38;
 }
 
-.adres {
+.footer-web {
+    color: var(--web-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+}
+
+.footer-maps {
     color: var(--studio-color);
 
     font-family: Roboto;
@@ -95,7 +104,7 @@
     line-height: 1, 71;
 }
 
-.link {
+.footer-item {
     color: var(--data-color);
 
     font-family: Roboto;
@@ -112,11 +121,11 @@
     color: var(--web-color);
 }
 
-.date:hover, .date:focus {
+.header-item:hover, .header-item:focus {
     color: var(--web-color);
 }
 
-.button2:hover, .button2:focus {
+.onesection-button:hover, .onesection-button:focus {
     background-color: var(--web-color);
     color: var(--studio-color);
 }
