@@ -10,11 +10,14 @@
     --studio1-color: #000;
 }
 
+body {
+font-family: "Roboto";
+}
 
 /* Хедер */
 .header-logo {
     color: var(--studio1-color);
-        font-family: Raleway;
+        font-family: "Raleway";
         font-size: 26px;
         font-weight: 700;
         line-height: 1.38;       
@@ -22,7 +25,7 @@
 
 .header-web {
 color: var(--web-color);
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
@@ -31,20 +34,29 @@ color: var(--web-color);
 
 .nav-item {
     color: var(--text-color);
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
 }
 
+.nav-item:hover, .nav-item:focus {
+    color: var(--web-color);
+}
+
+.current {
+    color: var(--web-color);
+}
+
 .header-item {
     color: var(--accent-color);
-    
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
        
+}
+
+.header-item:hover, .header-item:focus {
+    color: var(--web-color);
 }
 
 /* Секція герой */
@@ -55,7 +67,6 @@ color: var(--web-color);
 .hero-title {
     width: 696px;
     color: var(--studio-color);
-        font-family: Roboto;
         font-size: 44px;
         font-weight: 900;
         line-height: 1.36;
@@ -67,7 +78,6 @@ color: var(--web-color);
         height: 50px;
         background: var(--web-color);
         color: var(--studio-color);
-            font-family: Roboto;
             font-size: 16px;
             font-weight: 700;
             line-height: 30px;
@@ -76,7 +86,6 @@ color: var(--web-color);
 /* Секція наші переваги */
 .advantages-title {
     color: var(--text-color);
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 700;
         line-height: 1.14;
@@ -85,7 +94,6 @@ color: var(--web-color);
 
 .advantages-text {
     color: var(--accent-color);
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 400;
         line-height: 1.71;
@@ -94,7 +102,6 @@ color: var(--web-color);
 /* Секція чим ми займаємося */
 .affairs-title {
     color: var(--text-color);
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.16;
@@ -107,7 +114,6 @@ color: var(--web-color);
 
 .comand-title {
     color: var(--text-color);
-        font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.16;
@@ -115,7 +121,6 @@ color: var(--web-color);
 
 .comand-description {
     color: var(--text-color);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.18;
@@ -123,7 +128,6 @@ color: var(--web-color);
 
 .comand-text {
     color: var(--accent-color);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.18;
@@ -136,7 +140,7 @@ color: var(--web-color);
 
 .footer-logo {
     color: var(--studio-color);
-        font-family: Raleway;
+        font-family: "Raleway";
         font-size: 26px;
         font-weight: 700;
         line-height: 1.38;
@@ -144,7 +148,7 @@ color: var(--web-color);
 
 .footer-web {
     color: var(--web-color);
-        font-family: Raleway;
+        font-family: "Raleway";
         font-size: 26px;
         font-weight: 700;
         line-height: 1.38;
@@ -152,8 +156,6 @@ color: var(--web-color);
 
 .footer-maps {
     color: var(--studio-color);
-    
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 400;
         line-height: 1,71;
@@ -161,21 +163,10 @@ color: var(--web-color);
 
 .footer-item {
     color: var(--data-color);
-    
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 400;
         line-height: 1.71;
 }
 
-/* Навігація по сайту  */
-.nav-item:hover, .nav-item:focus {
-    color: var(--web-color);
-}
-.current {
-    color: var(--web-color);
-}
 
-.header-item:hover, .header-item:focus {
-    color: var(--web-color);
-}
+

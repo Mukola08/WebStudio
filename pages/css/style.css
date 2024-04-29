@@ -12,11 +12,15 @@
     --studio1-color: #000;
 }
 
+body {
+    font-family: "Roboto";
+}
+
 
 /* Хедер */
 .header-logo {
     color: var(--studio1-color);
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
@@ -24,7 +28,7 @@
 
 .header-web {
     color: var(--web-color);
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
@@ -33,35 +37,47 @@
 
 .nav-item {
     color: var(--text-color);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
 }
 
+.nav-item:hover, .nav-item:focus {
+    color: var(--web-color);
+}
+
+.current {
+    color: var(--web-color);
+}
+
 .header-item {
     color: var(--accent-color);
-
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
 
+}
+
+.header-item:hover, .header-item:focus {
+    color: var(--web-color);
 }
  
 /* Секція герой */
 .onesection-button {
     color: var(--text-color);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.62;
 }
 
+.onesection-button:hover, .onesection-button:focus {
+    background-color: var(--web-color);
+    color: var(--studio-color);
+}
+
 /* Секція Фотографії */
 .photo-title {
     color: var(--text-color);
-        font-family: Roboto;
         font-size: 18px;
         font-weight: 700;
         line-height: 2;
@@ -69,7 +85,6 @@
 
 .photo-text {
     color: var(--accent-color);
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.87;
@@ -81,7 +96,7 @@
 
 .footer-logo {
     color: var(--studio-color);
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
@@ -89,7 +104,7 @@
 
 .footer-web {
     color: var(--web-color);
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
@@ -97,8 +112,6 @@
 
 .footer-maps {
     color: var(--studio-color);
-
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 1, 71;
@@ -106,26 +119,7 @@
 
 .footer-item {
     color: var(--data-color);
-
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
-}
- 
-/* Навігація по сайту */
-.nav-item:hover, .nav-item:focus {
-    color: var(--web-color);
-}
-.current {
-    color: var(--web-color);
-}
-
-.header-item:hover, .header-item:focus {
-    color: var(--web-color);
-}
-
-.onesection-button:hover, .onesection-button:focus {
-    background-color: var(--web-color);
-    color: var(--studio-color);
 }
