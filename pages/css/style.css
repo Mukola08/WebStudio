@@ -12,6 +12,11 @@
     --studio1-color: #000;
 }
 
+*::after,
+*::before {
+    box-sizing: border;
+}
+
 img {
     display: block;
 }
