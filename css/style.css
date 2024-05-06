@@ -1,3 +1,8 @@
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 :root{
     --background-color: #2F303A;
     --text-color :#212121;
@@ -48,7 +53,6 @@ color: var(--web-color);
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
-   
 }
 
 .nav-item {
