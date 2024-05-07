@@ -11,9 +11,9 @@
     --dateheader-color: rgba(117, 117, 117, 1);
     --studio1-color: #000;
 }
-
-*::after,
-*::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
