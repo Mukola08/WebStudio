@@ -10,6 +10,15 @@
     --dateheader-color: rgba(117, 117, 117, 1);
     --studio1-color: #000;
 }
+
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    outline: 1px solid red ;
+}
+
 *,
 ::after,
 ::before {
