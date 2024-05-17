@@ -10,6 +10,7 @@
     --comand-color: rgba(245, 244, 250, 1);
     --dateheader-color: rgba(117, 117, 117, 1);
     --studio1-color: #000;
+    --affairs-color: #FFFFFF;
 }
 
 .container {
@@ -57,6 +58,8 @@ body {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.38;
+    margin-top: 24px; 
+        margin-bottom: 25px; 
 }
 
 .header-web {
@@ -96,6 +99,10 @@ body {
 }
  
 /* Секція герой */
+.one-section {
+    background-color: var(--affairs-color);
+    margin-top: 94px;
+}
 .onesection-button {
     color: var(--text-color);
         font-size: 16px;
@@ -121,6 +128,7 @@ body {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.87;
+        margin-bottom: 94px;
 }
 /* Футер */
 .footer {
