@@ -124,50 +124,49 @@ body {
 /* Секція герой */
 .hero {
   background: var(--background-color);
-  margin-top: 35px;
-  margin-bottom: 94px;
-  border: 1px;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
-.cnopku {
+/* .cnopku {
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding-left: 237px;
   padding-top: 200px;
-}
+} */
 
 .hero-title {
-  width: 696px;
-  height: 120px;
   color: var(--studio-color);
-  text-align: center;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   text-transform: uppercase;
-}
+  width: 696px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
 
 .hero-button {
-  background: var(--web-color);
   color: var(--studio-color);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  border-radius: 4px;
-  background-color: var(--web-color);
-  border: 3px solid var(--web-color);
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 247px;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87; 
+letter-spacing: 0.96px;
+background-color: var(--web-color);
+padding: 10px 32px;
+border-radius: 4px;
 }
 
 /* Секція наші переваги */
 .advantages {
   background-color: var(--affairs-color);
+  padding-top: 94px;
+
 }
 
 .advantages-list {
@@ -182,6 +181,7 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .advantages-text {
@@ -196,8 +196,8 @@ body {
 
 .affairs {
   background-color: var(--affairs-color);
-  margin-top: 101px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .affairs-list {
@@ -210,22 +210,26 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-   margin-left: 402px;
-  padding-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /* Секція команда  */
 .comand {
   background-color: var(--comand-color);
-  height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
 }
 
 .comand-list {
-  
     display: flex;
     gap: 30px;
-    padding-top: 50px;
-    padding-bottom: 94px;
+    max-width: 1200px;
+}
+
+.comand-img{
+  width: 270px;
 }
 
 .comand-item {
@@ -240,8 +244,8 @@ border: 1px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
-  margin-left: 453px;
-  padding-top: 94px;
+  margin-bottom: 50px;
+  letter-spacing: 1.08px
 }
 
 .comand-description {
@@ -251,7 +255,7 @@ border: 1px;
   line-height: 1.18;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .comand-text {
@@ -261,7 +265,7 @@ border: 1px;
   line-height: 1.18;
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 /* Футер */
@@ -278,7 +282,7 @@ border: 1px;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
-  padding-bottom: 100px;
+  letter-spacing: 0.78px;
 }
 
 .footer-web {
@@ -287,21 +291,29 @@ border: 1px;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.38;
-}
-
-.footer-adress {
-  padding-top: 20px;
+   letter-spacing: 0.78px;
 }
 
 .footer-maps {
   color: var(--studio-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1, 71;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+.footer-adress {
+  margin-top: 20px;
+}
+
+.footer-list {
+  margin-top: 9px;
 }
 
 .footer-link {
-padding-top: 9px;
+  margin-bottom: 9px;
+}
+.footer-link:last-child {
+margin-bottom: 0px;
 }
 
 .footer-item {
@@ -309,4 +321,5 @@ padding-top: 9px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
+  letter-spacing: 0.42px;
 }
