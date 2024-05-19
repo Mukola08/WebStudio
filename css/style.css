@@ -67,6 +67,7 @@ body {
   font-weight: 700;
   line-height: 1.38;
   margin-right: 93px;
+  width: 145px;
 }
 
 .header-web {
@@ -93,6 +94,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.28px;
 }
 
 .nav-item:hover,
@@ -114,6 +116,10 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.28px;
+}
+.header-item:last-child {
+  margin-right: 0px;
 }
 
 .header-item:hover,
@@ -212,6 +218,10 @@ border-radius: 4px;
   line-height: 1.16;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.affairs-img {
+  width: 370px;
 }
 
 /* Секція команда  */
