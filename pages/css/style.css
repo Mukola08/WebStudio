@@ -11,6 +11,7 @@
     --dateheader-color: rgba(117, 117, 117, 1);
     --studio1-color: #000;
     --affairs-color: #FFFFFF;
+    --border-color: rgba(238, 238, 238, 1);
 }
 
 .container {
@@ -163,8 +164,8 @@ body {
     width: 370px;
 height: 404px;
 flex-shrink: 0;
-border: 1px solid #EEE;
-background: #FFF;
+border: 1px solid var(--border-color);
+background: var(--affairs-color);
 }
 
 .photo-title {
