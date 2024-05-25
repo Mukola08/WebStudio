@@ -18,7 +18,7 @@
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-    outline: 1px solid red ;
+    /* outline: 1px solid red ; */
 }
 
 *,
@@ -52,75 +52,131 @@ body {
 
 
 /* Хедер */
+.header {
+  background-color: var(--affairs-color);
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
 .header-logo {
-    color: var(--studio1-color);
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.38;
-    margin-top: 24px; 
-        margin-bottom: 25px; 
+  color: var(--studio1-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  margin-right: 93px;
+  width: 145px;
 }
 
 .header-web {
-    color: var(--web-color);
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.38;
+  color: var(--web-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+}
 
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+  margin-right: 344px;
 }
 
 .nav-item {
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
 }
 
-.nav-item:hover, .nav-item:focus {
-    color: var(--web-color);
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--web-color);
 }
 
 .current {
-    color: var(--web-color);
+  color: var(--web-color);
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
 }
 
 .header-item {
-    color: var(--accent-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+}
+.header-item:last-child {
+  margin-right: 0px;
 }
 
-.header-item:hover, .header-item:focus {
-    color: var(--web-color);
+.header-item:hover,
+.header-item:focus {
+  color: var(--web-color);
 }
  
-/* Секція герой */
-.one-section {
+
+/* Секція Фотографії */
+.photo {
     background-color: var(--affairs-color);
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-.onesection-button {
+
+.phooto-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.photo-btn {
     color: var(--text-color);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.62;
+        padding: 6px 22px;
 }
 
-.onesection-button:hover, .onesection-button:focus {
+.photo-btn:hover, .photo-btn:focus {
     background-color: var(--web-color);
     color: var(--studio-color);
 }
 
-/* Секція Фотографії */
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.photo-link {
+    width: 370px;
+height: 404px;
+flex-shrink: 0;
+border: 1px solid #EEE;
+background: #FFF;
+}
+
 .photo-title {
     color: var(--text-color);
         font-size: 18px;
         font-weight: 700;
         line-height: 2;
+        margin-top: 20px;
+         margin-left: auto;
+        margin-right: auto;
+        width: 322px;
+        height: 36px;
 }
 
 .photo-text {
@@ -128,39 +184,64 @@ body {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.87;
-        margin-bottom: 94px;
+        margin-top: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 322px;
+        height: 30px;
 }
 /* Футер */
 .footer {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 
 .footer-logo {
-    color: var(--studio-color);
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.38;
+  color: var(--studio-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
 }
 
 .footer-web {
-    color: var(--web-color);
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.38;
+  color: var(--web-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+   letter-spacing: 0.78px;
 }
 
 .footer-maps {
-    color: var(--studio-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1, 71;
+  color: var(--studio-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+.footer-adress {
+  margin-top: 20px;
+}
+
+.footer-list {
+  margin-top: 9px;
+}
+
+.footer-link {
+  margin-bottom: 9px;
+}
+.footer-link:last-child {
+margin-bottom: 0px;
 }
 
 .footer-item {
-    color: var(--data-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
+  color: var(--data-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
