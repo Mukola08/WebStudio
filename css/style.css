@@ -129,7 +129,7 @@ body {
 
 /* Секція герой */
 .hero {
-  background: var(--background-color);
+background-color: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -256,15 +256,16 @@ background-image: url(../images/astronaut.png);
     max-width: 1200px;
 }
 
-.comand-img{
-  width: 270px;
+.comand-box {
+  border-radius: 0px 0px 4px 4px;
+background: var(--studio-color);
+ width: 270px;
+ padding-top: 30px;
+ padding-bottom: 30px;
 }
 
-.comand-item {
-border: 1px;
-  background-color: var(--affairs-color);
+.comand-img{
   width: 270px;
-  height: 368px;
 }
 
 .comand-title {
@@ -281,9 +282,6 @@ border: 1px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
 }
 
 .comand-text {
@@ -291,9 +289,7 @@ border: 1px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.18;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 /* Футер */
@@ -320,6 +316,10 @@ border: 1px;
   font-weight: 700;
   line-height: 1.38;
    letter-spacing: 0.78px;
+}
+
+.footer-adress{
+  font-style: normal;
 }
 
 .footer-maps {

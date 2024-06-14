@@ -12,6 +12,7 @@
     --studio1-color: #000;
     --affairs-color: #FFFFFF;
     --border-color: rgba(238, 238, 238, 1);
+    --header-color: #ECECEC;
 }
 
 .container {
@@ -22,11 +23,11 @@
     /* outline: 1px solid red ; */
 }
 
-/* *,
+*,
 ::after,
 ::before {
     box-sizing: border-box;
-} */
+}
 
 img {
     display: block;
@@ -55,8 +56,9 @@ body {
 /* Хедер */
 .header {
   background-color: var(--affairs-color);
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--header-color);
 }
 
 .header-logo {
@@ -125,14 +127,15 @@ body {
 .header-item:focus {
   color: var(--web-color);
 }
- 
 
 /* Секція Фотографії */
 .photo {
     background-color: var(--affairs-color);
     padding-top: 94px;
     padding-bottom: 94px;
+     
 }
+
 
 .phooto-list {
     display: flex;
@@ -143,6 +146,8 @@ body {
 
 .photo-btn {
     color: var(--text-color);
+    background-color: var(--comand-color);
+    border-radius: 4px;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.62;
@@ -162,8 +167,6 @@ body {
 }
 
 .photo-link {
-  border: 1px solid var(--border-color);
-  background: var(--affairs-color);
   flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -171,16 +174,18 @@ body {
   width: 100%;
 }
 
+.photo-box {
+  border: 1px solid var(--border-color);
+  background-color: var(--studio-color);
+  width: 370px;
+  padding: 20px 24px;
+}
+
 .photo-title {
     color: var(--text-color);
         font-size: 18px;
         font-weight: 700;
         line-height: 2;
-        margin-top: 20px;
-         margin-left: auto;
-        margin-right: auto;
-        width: 322px;
-        height: 36px;
 }
 
 .photo-text {
@@ -189,11 +194,6 @@ body {
         font-weight: 400;
         line-height: 1.87;
         margin-top: 4px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        width: 322px;
-        height: 30px;
 }
 /* Футер */
 .footer {
@@ -219,6 +219,10 @@ body {
   font-weight: 700;
   line-height: 1.38;
    letter-spacing: 0.78px;
+}
+
+.footer-adress{
+  font-style: normal;
 }
 
 .footer-maps {
