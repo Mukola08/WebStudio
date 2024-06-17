@@ -177,7 +177,6 @@ body {
 .photo-box {
   border: 1px solid var(--border-color);
   background-color: var(--studio-color);
-  width: 370px;
   padding: 20px 24px;
 }
 
