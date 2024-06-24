@@ -161,6 +161,7 @@ letter-spacing: 0.96px;
 background-color: var(--web-color);
 padding: 10px 32px;
 border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Секція наші переваги */
@@ -256,6 +257,10 @@ background-image: url(../images/astronaut.png);
     display: flex;
     gap: 30px;
     max-width: 1200px;
+}
+
+.comand-item {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 .comand-box {
