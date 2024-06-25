@@ -296,7 +296,7 @@ background: var(--studio-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.18;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 /* Футер */
