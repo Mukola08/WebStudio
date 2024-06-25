@@ -58,7 +58,17 @@ body {
   background-color: var(--affairs-color);
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid var(--header-color);
+}
+
+.header::after {
+  content: "";
+  display: block;
+  width: 1600px;
+height: 1px;
+background: var(--header-color);
+margin-right: auto;
+margin-left: auto;
+margin-top: 25px;
 }
 
 .header-logo {
